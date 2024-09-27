@@ -134,3 +134,51 @@ img {
     width: 100%;
   }
 }
+
+/* **** Mobile **** */
+@media screen and (max-width: 480px) {
+  /* lesson section */
+  .lessons .row {
+    c
+  }
+
+  .lessons .col {
+    width: 100%;
+  }
+
+  /* steps section */
+  .steps .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .lessons .col {
+    width: 100%;
+  }
+
+  .steps .row .col {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+
+  /* why us section */
+  .why-us .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+  .why-us .col-left, 
+  .why-us .col-right {
+      width: 100%;
+  }
+  
+  .why-us .col-left {
+    padding-bottom: 50px;
+  }
+
+  .why-us {
+    background-color: black;
+  }
+  
+}   
